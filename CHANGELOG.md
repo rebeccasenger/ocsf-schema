@@ -105,6 +105,7 @@ Thankyou! -->
     1. Added `control_parameters` and `status_details` to the compliance object. #1219
     1. Added `geodetic_altitude`, `height`, `horizontal_accuracy`, and `pressure_altitude` to `location`. #1169
     1. Added `location` to `managed_entity`. #1169
+    1. Added `kernel_ver` to `os` object Linux extension.
 
 ### Bugfixes
     1. Added sibling definition to `confidence_id` in dictionary, accurately associating `confidence` as its sibling. #1180
