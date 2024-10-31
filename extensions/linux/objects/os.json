@@ -1,0 +1,11 @@
+{
+  "caption": "Linux Operating System (OS)",
+  "description": "Extends the Operating System (OS) object to add Linux specific fields",
+  "extends": "os",
+  "attributes": {
+    "kernel_ver": {
+      "requirement": "optional"
+    }
+  }
+}
+  
