@@ -1649,6 +1649,11 @@
         }
       }
     },
+    "distribution": {
+      "caption": "Distribution",
+      "description": "The distributor id of an operating system.",
+      "type": "string_t"
+    },
     "dkim": {
       "caption": "DKIM Status",
       "description": "The DomainKeys Identified Mail (DKIM) status of the email.",
@@ -2628,11 +2633,6 @@
         "since": "1.1.0"
       },
       "is_array": true
-    },
-    "kernel": {
-      "caption": "Kernel",
-      "description": "The kernel resource object that pertains to the event.",
-      "type": "kernel"
     },
     "key_length": {
       "caption": "Key Length",
