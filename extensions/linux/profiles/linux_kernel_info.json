@@ -1,12 +1,12 @@
 {
-    "caption": "Linux Kernel Information",
-    "description": "The attributes that Linux uses to identify kernel information.",
-    "meta": "profile",
-    "name": "linux_kernel_info",
-    "attributes": {
-      "kernel_release": {
-        "requirement": "optional"
-      }
+  "caption": "Linux Kernel Information",
+  "description": "The attributes that Linux uses to identify kernel information.",
+  "meta": "profile",
+  "name": "linux_kernel_info",
+  "attributes": {
+    "kernel_release": {
+      "requirement": "optional"
     }
   }
+}
   
