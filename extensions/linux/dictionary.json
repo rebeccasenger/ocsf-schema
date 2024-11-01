@@ -18,9 +18,9 @@
       "description": "The effective group under which this process is running.",
       "type": "integer_t"
     },
-    "kernel_ver": {
-        "caption": "Kernel Version",
-        "description": "The kernel release version of the operating system. Determined from the <code>uname -r</code> command output on Unix-based systems.",
+    "kernel_release": {
+        "caption": "Kernel Release",
+        "description": "The kernel release of the operating system. Determined from the <code>uname -r</code> command output on Unix-based systems.",
         "type": "string_t"
     }
   }
