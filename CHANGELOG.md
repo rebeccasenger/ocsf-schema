@@ -49,6 +49,9 @@ Thankyou! -->
     1. Added `Script Activity` event class to the System category. #1159
     1. Added `Startup Item Query` event class. #1119
     1. Added `Drone Flights Activity` event class to the Unmanned Systems category. #1169
+* #### Profiles
+    1. Added `linux_kernel_info` profile.
+    1. Added `kernel_release` to `linux_kernel_info` profile.
 * #### Dictionary Attributes
     1. Added `has_mfa` as a `boolean_t`. #1155
     1. Added `environment_variables` as an array of `environment_variable` object. #1172
@@ -67,7 +70,8 @@ Thankyou! -->
     1. Added `location` to the `managed_entity` object. #1169
     1. Added `unmanned_system_operator` to the dictionary, extends `user`. #1169
     1. Added `locations` to the dictionary, an array type of the `location` object, used within the new `operating_area` object. #1169
-    1. Added `altitude_ceiling`, `altitude_floor`, `geodetic_altitude`, `aerial_height`, `horizontal_accuracy`, `pressure_altitude`, `radius`, `speed`, `track_direction`, and `vertical_speed` all to support `operating_area` and `unmanned_aerial_system` objects. #1169 
+    1. Added `altitude_ceiling`, `altitude_floor`, `geodetic_altitude`, `aerial_height`, `horizontal_accuracy`, `pressure_altitude`, `radius`, `speed`, `track_direction`, and `vertical_speed` all to support `operating_area` and `unmanned_aerial_system` objects. #1169
+    1. Added `kernel_release` as a `string_t` as part of the Linux extension.
 * #### Objects
     1. Added `environment_variable` object. #1172
     1. Added `advisory` object. #1176
@@ -105,7 +109,7 @@ Thankyou! -->
     1. Added `control_parameters` and `status_details` to the compliance object. #1219
     1. Added `geodetic_altitude`, `height`, `horizontal_accuracy`, and `pressure_altitude` to `location`. #1169
     1. Added `location` to `managed_entity`. #1169
-    1. Added `kernel_ver` to `os` object Linux extension.
+    1. Added `linux_kernel_info` profile to `os` object.
 
 ### Bugfixes
     1. Added sibling definition to `confidence_id` in dictionary, accurately associating `confidence` as its sibling. #1180
