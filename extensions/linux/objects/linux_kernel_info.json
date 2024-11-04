@@ -1,0 +1,12 @@
+{
+  "caption": "Linux Kernel Information",
+  "description": "The Linux Kernel Information describes kernel information, such as release versions, useful for identifying Linux kernels. Defined by D3FEND <a target='_blank' href='https://d3fend.mitre.org/dao/artifact/d3f:Kernel/'>d3f:Kernel</a>.",
+  "extends": "object",
+  "name": "linux_kernel_info",
+  "attributes": {
+    "kernel_release": {
+      "requirement": "optional"
+    }
+  }
+}
+  

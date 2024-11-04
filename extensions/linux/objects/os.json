@@ -2,13 +2,10 @@
   "caption": "Linux Operating System (OS)",
   "description": "Extends the Operating System (OS) object to add Linux specific fields",
   "extends": "os",
-  "profiles": [
-    "linux/linux_kernel_info"
-  ],
   "attributes": {
-    "$include": [
-      "profiles/linux_kernel_info.json"
-    ]
+    "linux_kernel_info": {
+      "requirement": "optional"
+    }
   }
 }
   

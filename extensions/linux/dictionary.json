@@ -18,6 +18,11 @@
       "description": "The effective group under which this process is running.",
       "type": "integer_t"
     },
+    "linux_kernel_info": {
+      "caption": "Linux Kernel Information",
+      "description": "Details about the kernel running on the Linux endpoint.",
+      "type": "linux_kernel_info"
+    },
     "kernel_release": {
         "caption": "Kernel Release",
         "description": "The kernel release of the operating system. Determined from the <code>uname -r</code> command output on Unix-based systems.",
