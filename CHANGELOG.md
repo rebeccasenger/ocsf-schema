@@ -49,9 +49,6 @@ Thankyou! -->
     1. Added `Script Activity` event class to the System category. #1159
     1. Added `Startup Item Query` event class. #1119
     1. Added `Drone Flights Activity` event class to the Unmanned Systems category. #1169
-* #### Profiles
-    1. Added `linux_kernel_info` profile.
-    1. Added `kernel_release` to `linux_kernel_info` profile.
 * #### Dictionary Attributes
     1. Added `has_mfa` as a `boolean_t`. #1155
     1. Added `environment_variables` as an array of `environment_variable` object. #1172
@@ -77,6 +74,8 @@ Thankyou! -->
     1. Added `advisory` object. #1176
     1. Added a generic `key_value_object` object. #1219
     1. Added `unmanned_aerial_system` and `unmanned_system_operating_area` objects. #1169
+    1. Added `linux_kernel_info` object.
+    1. Added `kernel_release` to `linux_kernel_info` object.
 
 ### Improved
 * #### Event Classes
@@ -109,7 +108,7 @@ Thankyou! -->
     1. Added `control_parameters` and `status_details` to the compliance object. #1219
     1. Added `geodetic_altitude`, `height`, `horizontal_accuracy`, and `pressure_altitude` to `location`. #1169
     1. Added `location` to `managed_entity`. #1169
-    1. Added `linux_kernel_info` profile to `os` object.
+    1. Added `linux_kernel_info` to `os` object.
 
 ### Bugfixes
     1. Added sibling definition to `confidence_id` in dictionary, accurately associating `confidence` as its sibling. #1180
