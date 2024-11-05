@@ -6,6 +6,18 @@
   "attributes": {
     "kernel_release": {
       "requirement": "optional"
+    },
+    "kernel_version": {
+      "requirement": "optional"
+    },
+    "major_revision": {
+      "requirement": "optional"
+    },
+    "minor_revision": {
+      "requirement": "optional"
+    },
+    "patch_number": {
+      "requirement": "optional"
     }
   }
 }

@@ -27,6 +27,26 @@
         "caption": "Kernel Release",
         "description": "The kernel release of the operating system. Determined from the <code>uname -r</code> command output on Unix-based systems.",
         "type": "string_t"
+    },
+    "kernel_version": {
+        "caption": "Kernel Version",
+        "description": "The kernel version of the operating system. Given the full version is w.x.y-z, the kernel version is w.",
+        "type": "integer_t"
+    },
+    "major_revision": {
+        "caption": "Major Revision",
+        "description": "The kernel major revision of the operating system. Given the full version is w.x.y-z, the major revision is x.",
+        "type": "integer_t"
+    },
+    "minor_revision": {
+        "caption": "Minor Revision",
+        "description": "The kernel minor revision of the operating system. Given the full version is w.x.y-z, the minor revision is y.",
+        "type": "integer_t"
+    },
+    "patch_number": {
+        "caption": "Patch Number",
+        "description": "The kernel patch number of the operating system. Given the full version is w.x.y-z, the patch number is z.",
+        "type": "integer_t"
     }
   }
 }
