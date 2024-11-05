@@ -69,7 +69,7 @@ Thankyou! -->
     1. Added `locations` to the dictionary, an array type of the `location` object, used within the new `operating_area` object. #1169
     1. Added `altitude_ceiling`, `altitude_floor`, `geodetic_altitude`, `aerial_height`, `horizontal_accuracy`, `pressure_altitude`, `radius`, `speed`, `track_direction`, and `vertical_speed` all to support `operating_area` and `unmanned_aerial_system` objects. #1169
     1. Added `kernel_release` as a `string_t` as part of the Linux extension.
-    1. Added `kernel_version`, `major_revision`, `minor_revision`, and `patch_number` as `string_t` as part of the Linux extension.
+    1. Added `kernel_version`, `major_revision`, `minor_revision`, and `patch_number` as `integer_t` as part of the Linux extension.
 * #### Objects
     1. Added `environment_variable` object. #1172
     1. Added `advisory` object. #1176
