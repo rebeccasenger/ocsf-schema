@@ -7,16 +7,16 @@
     "kernel_release": {
       "requirement": "optional"
     },
-    "kernel_version": {
+    "kernel_version_first": {
       "requirement": "optional"
     },
-    "major_revision": {
+    "kernel_version_second": {
       "requirement": "optional"
     },
-    "minor_revision": {
+    "kernel_version_third": {
       "requirement": "optional"
     },
-    "patch_number": {
+    "kernel_version_fourth": {
       "requirement": "optional"
     }
   }

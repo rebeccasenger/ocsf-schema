@@ -28,24 +28,24 @@
         "description": "The kernel release of the operating system. Determined from the <code>uname -r</code> command output on Unix-based systems.",
         "type": "string_t"
     },
-    "kernel_version": {
-        "caption": "Kernel Version",
-        "description": "The kernel version of the operating system. Given the full version is w.x.y-z, the kernel version is w.",
+    "kernel_version_first": {
+        "caption": "Kernel Version First",
+        "description": "The first number of the kernel version. Given the full version is w.x.y-z-&lt;release&gt;, the kernel version first is w.",
         "type": "integer_t"
     },
-    "major_revision": {
-        "caption": "Major Revision",
-        "description": "The kernel major revision of the operating system. Given the full version is w.x.y-z, the major revision is x.",
+    "kernel_version_second": {
+        "caption": "Kernel Version Second",
+        "description": "The second number of the kernel version. Given the full version is is w.x.y-z-&lt;release&gt;, the kernel version second is x.",
         "type": "integer_t"
     },
-    "minor_revision": {
-        "caption": "Minor Revision",
-        "description": "The kernel minor revision of the operating system. Given the full version is w.x.y-z, the minor revision is y.",
+    "kernel_version_third": {
+        "caption": "Kernel Version Third",
+        "description": "The third number of the kernel version. Given the full version is is w.x.y-z-&lt;release&gt;, the kernel version third is y.",
         "type": "integer_t"
     },
-    "patch_number": {
-        "caption": "Patch Number",
-        "description": "The kernel patch number of the operating system. Given the full version is w.x.y-z, the patch number is z.",
+    "kernel_version_fourth": {
+        "caption": "Kernel Version Fourth",
+        "description": "The fourth number of the kernel version. Given the full version is is w.x.y-z-&lt;release&gt;, the kernel version fourth is z.",
         "type": "integer_t"
     }
   }

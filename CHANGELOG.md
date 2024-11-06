@@ -76,7 +76,6 @@ Thankyou! -->
     1. Added a generic `key_value_object` object. #1219
     1. Added `unmanned_aerial_system` and `unmanned_system_operating_area` objects. #1169
     1. Added `linux_kernel_info` object.
-    1. Added `kernel_release`, `kernel_version`, `major_revision`, `minor_revision`, and `patch_number` to `linux_kernel_info` object.
 
 ### Improved
 * #### Event Classes
