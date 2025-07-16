@@ -47,7 +47,7 @@
         },
         "7": {
           "caption": "Substitute User",
-          "description": "A user attempted to authenticate as another user"
+          "description": "A utility like <code>sudo</code>, <code>su</code>, or equivalent was used to perform actions in the context of another user."
         }
       }
     },
