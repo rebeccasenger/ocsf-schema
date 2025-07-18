@@ -19,6 +19,14 @@
     ]
   },
   "attributes": {
+    "account_switch_type": {
+      "group": "primary",
+      "requirement": "recommended"
+    },
+    "account_switch_type_id": {
+      "group": "primary",
+      "requirement": "recommended"
+    },
     "activity_id": {
       "enum": {
         "1": {
@@ -46,8 +54,8 @@
           "description": "A preauthentication stage was engaged."
         },
         "7": {
-          "caption": "Substitute User",
-          "description": "A utility like <code>sudo</code>, <code>su</code>, or equivalent was used to perform actions in the context of another user."
+          "caption": "Account Switch",
+          "description": "A utility or service switched the user account. See the <code>account_switch_type_id</code> attribute for more details."
         }
       }
     },
