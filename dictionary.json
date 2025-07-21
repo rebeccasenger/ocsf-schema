@@ -120,7 +120,7 @@
         },
         "2": {
           "caption": "Impersonate",
-          "description": "A Kerberos service is acting with the permissions of another user."
+          "description": "An API like <code>ImpersonateLoggedOnUser()</code> or equivalent was used to perform actions in the context of another user."
         },
         "99": {
           "caption": "Other",
